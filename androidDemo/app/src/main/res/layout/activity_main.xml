@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/btn_start_ativity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="开启flutter ativity"
+        />
+
+    <Button
+        android:id="@+id/btn_create_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Flutter view的方式集成"
+        />
+
+    <Button
+        android:id="@+id/btn_fragmet_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Flutter Fragment的方式集成"
+        />
+
+    <Button
+        android:id="@+id/btn_basic_message_channel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="BasicMessageChannel 传递消息"
+        />
+
+    <Button
+        android:id="@+id/btn_basic_event_channel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="EventChannel 传递消息"
+        />
+    <Button
+        android:id="@+id/btn_basic_method_channel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="MethodChannel 传递消息"
+        />
+
+    <Button
+        android:id="@+id/btn_basic_anim"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="动画开启 "
+        />
+
+</LinearLayout>

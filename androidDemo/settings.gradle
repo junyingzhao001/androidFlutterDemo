@@ -1,0 +1,10 @@
+rootProject.name = "flutterDemo"
+include ':app'
+// 添加如下代码
+setBinding(new Binding([gradle: this]))
+evaluate(new File(
+  settingsDir,
+  '../flutter_module/.android/include_flutter.groovy'
+))
+
+rootProject.name = "AndroidProject"
